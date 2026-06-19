@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
         <title>My Porfolio</title>
         <meta charset="utf-8">
@@ -22,31 +22,29 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 <body>
     <header>
 <nav class="navbar navbar-expand-lg navbar-light  times" style="background-color: #eee7fc;height: 58px;">
-  <a class="navbar-brand name " href="#" >Ruchitha Bhima</a>
+  <a class="navbar-brand name " href="#" araia-label="Ruchitha_bhima's_portfolio" >Ruchitha Bhima</a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <i class="bi bi-list" id="menuIcon"></i>
   </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ms-auto  gap-2">
       <li class="nav-item active">
-        <a class="nav-link background rounded-3" href="#hero" >Home </a>
+        <a class="nav-link background rounded-3" href="#hero" aria-label="home">Home </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link background rounded-3" href="#about">About</a>
+        <a class="nav-link background rounded-3" href="#about" aria-label="about">About</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link background rounded-3" href="#projects">Projects</a>
+        <a class="nav-link background rounded-3" href="#projects" aria-label="projects">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link background rounded-3" href="#resume">My Journey</a>
+        <a class="nav-link background rounded-3" href="#resume" aria-label="My_journey">My Journey</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link background rounded-3" href="#contact">Contact</a>
+        <a class="nav-link background rounded-3" href="#contact" aria-label="contact">Contact</a>
       </li>
     </ul>
-    
-  </div>
+</div>
 </nav>
 </header>
 <main>
@@ -62,7 +60,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         </div>
         <div class="col-md-6">
             <div class="d-flex justify-content-center align-items-center">
-                <img class="hero-img" src="profile_image.jpeg">
+                <img class="hero-img" src="profile_image.webp" alt="profile_image">
             </div>
         </div>
     </div>
@@ -72,7 +70,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     <div class="container">
     <div class="row">
     <div class="col-md-7 ms-auto ">
-    <h1 class="heading2 padding">About Me</h1>
+    <h2 class="heading2 padding">About Me</h2>
     <p class="fontcolor">I'm Ruchitha, a B.Tech Computer Science Engineering student with a strong interest in web development and software engineering. I enjoy building responsive and user-friendly web applications using HTML, CSS, JavaScript, Bootstrap, Python, and SQL.</p>
     <p class="fontcolor">I am currently expanding my skills in Full Stack Development and working on projects that help me apply programming concepts to real-world problems. I enjoy learning new technologies, improving my problem-solving abilities, and creating clean, efficient solutions.</p>
     <p class="fontcolor">My goal is to grow as a software developer, contribute to meaningful projects, and continuously learn modern technologies .</p>
@@ -83,7 +81,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     <section id="stats">
         <div class="container">
         <div class="row">
-        <h3 class="heading2 mb-1 padding">Skills</h3>
+        <h2 class="heading2 mb-1 padding">Skills</h2>
         <div class=" d-flex flex-wrap gap-3">
             
             <div class="skill-category bgcard">
@@ -93,18 +91,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
                 <p class="paracolor">C++ Programming (Basic)</p>
                 </div>
             </div>
-            
-           
             <div class="skill-category bgcard">
                 <h4>Web Development</h4>
                 <div class="d-flex flex-column">
                 <p class="paracolor">HTML, CSS, Bootstrap & JavaScript</p>
                 <p class="paracolor">Node.js, Express.js</p>
                 </div>
-                
             </div>
-        
-        
             <div class="skill-category bgcard shadow">
                 <h4>Database Management</h4>
                 <div class="d-flex flex-column">
@@ -112,7 +105,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
                 <p class="paracolor">mongoDB</p>
                 </div>
             </div>
-
             <div class="skill-category bgcard">
                 <h4>Tools & Platforms</h4>
                 <div class="d-flex flex-column">
@@ -120,25 +112,22 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
                 <p class="paracolor">VS Code</p>
                 </div>
             </div>
-
-       
         </div>
-        
-        </div>
-        </div>
+    </div>
+    </div>
     </section>
     <section id="projects">
         <div class="container">
-            <h1 class="heading2 padding pb-1">My Projects</h1>
+            <h2 class="heading2 padding pb-1">My Projects</h2>
             <div class="row">
             <div class="d-flex flex-wrap gap-4">
                 <div class="project-card">
                      <div class="d-flex flex-column">
                     <div class="project-image2">
-                    <img src="projectimages\minihomepage.jpeg" alt="StudyBud">
+                    <img src="projectimages\minihomepage.webp" alt="StudyBud" loading="lazy">
                     </div>
                     <div class="content">
-                    <h2>StudyBud</h2>
+                    <h3>StudyBud</h3>
                     <p>
                     AI-powered learning platform that transforms YouTube
                     videos into summaries, notes and quizzes to enhance
@@ -157,10 +146,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
                 <div class="project-card shadow">
                      <div class="d-flex flex-column">
                     <div class="project-image2">
-                    <img src="projectimages\createpost_homepage.jpeg" alt="ConnectFeed">
+                    <img src="projectimages\createpost_homepage.webp" alt="ConnectFeed" loading="lazy">
                     </div>
                     <div class="content">
-                    <h2>ConnectFeed</h2>
+                    <h3>ConnectFeed</h3>
                     <p>
                     A full-stack social media application that allows users to create, upload, and share image-based posts. 
                     </p>
@@ -180,10 +169,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
                 <div class="project-card">
                     <div class="d-flex  flex-column">
                     <div class="project-image2">
-                    <img src="projectimages\wheatherhome.png" alt="wheatherForecast">
+                    <img src="projectimages\wheatherhome.webp" alt="wheatherForecast" loading="lazy">
                     </div>
                     <div class="content">
-                    <h2>Skycast</h2>
+                    <h3>Skycast</h3>
                     <p>
                    A responsive weather forecasting application that provides real-time weather conditions, temperature, humidity & location-based forecasts using weather APIs.
                     </p>
@@ -200,10 +189,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
                 <div class="project-card">
                      <div class="d-flex flex-column">
                     <div class="project-image2">
-                    <img src="projectimages\internportal.png" alt="ConnectFeed">
+                    <img src="projectimages\internportal.webp" alt="ConnectFeed" loading="lazy">
                     </div>
                     <div class="content">
-                    <h2>Internportal</h2>
+                    <h3>Internportal</h3>
                     <p>
                     Developed a responsive Internship Portal frontend with multiple sections, intuitive navigation, and mobile-friendly layouts. 
                     <div class="technologies mt-2">
@@ -211,7 +200,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
                         <span class="bghover2">CSS</span>
                         <span class="bghover2">Bootstrap</span>
                         <span class="bghover2">Javascript</span>
-                        
                     </div>
                     </div>
                     </div>
@@ -273,12 +261,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
             <div class="email-section">
             <i class="fa-solid fa-envelope email-icon"></i>
             <span class="email-text">
-                ruchithabhima@gmail.com
+             <a href="mailto:ruchithabhima26@gmail.com" aria-label="Send email to Ruchi" class="email-link">  ruchithabhima@gmail.com</a> 
             </span>
             </div>
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/ruchitha-bhima-328a79344?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/ruchithabhima" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ruchitha-bhima-328a79344?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="linkedin_icon"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ruchithabhima" target="_blank" aria-label="github_icon"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
         </div>
@@ -290,7 +278,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
             <input class="form-control bginput" type="email" placeholder="Your Email" required id="email"></input>
             <textarea class="form-control bgtextarea" rows="6" cols="55" placeholder="Message" required id="message"></textarea>
             
-            <button type="submit" class="btn btnbg" ">Submit</button>
+            <button type="submit" class="btn btnbg" >Submit</button>
             </div>
             </form>
         </div>
@@ -302,6 +290,5 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     <p>© 2026 Ruchitha Bhima. All rights reserved.</p>
 </footer>
 </main>
-
 </body>
 </html>
