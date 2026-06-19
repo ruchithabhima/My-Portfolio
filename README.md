@@ -25,7 +25,7 @@ A responsive personal portfolio website showcasing my skills, projects, educatio
 
 ```
 portfolio/
-├── portfolio.html
+├── index.html
 ├── styles.css
 ├── closemenu.js
 ├── profile_image.jpg
