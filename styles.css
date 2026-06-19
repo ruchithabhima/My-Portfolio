@@ -6,19 +6,14 @@ html{
     /* transform:ease all 0.3sec; */
     &:hover{
 background-color: #9b5cff;
-
-
 cursor: pointer;
 color:#fff;
 }
 }
-p{
+.footer p{
     margin-bottom:0px !important;
 }
-.imgstyle{
-    width: 350px;
-    height: 415px
-}
+
 .card1{
     background: white;
     box-shadow: aliceblue;
@@ -36,24 +31,17 @@ position:sticky;
     z-index:1030;
 }
 .navbar{
-    
-   height:60px;
+    height:60px;
    padding-right: 15px;
 }
 .times{
 font-weight: 500;
-
 }
 .name{
     padding-left: 35px;
     color: #46396a;
     font-size: 23px;
 }
-
-.img{
-    border: radius 50px;
-}
-
 .heading{
     font-size: 4rem;
     font-weight: 700;
@@ -160,13 +148,11 @@ font-weight: 500;
     max-width: 700px;
     
 }
-
 #stats{
     min-height:65vh;
     background:rgb(22, 20, 43);
 
 }
-
 .bghover2{
      &:hover{
     background-color:rgb(142, 124, 242);
@@ -201,8 +187,8 @@ font-weight: 500;
     font-size: 24px;
     font-weight: 600;
     &:hover{
-        background-color:rgb(170, 207, 242);
-    color:rgb(47, 42, 77);
+        background-color:rgb(116, 176, 232);
+    color:rgb(38, 34, 58);
     
     }
 
@@ -237,7 +223,6 @@ font-weight: 500;
 
     transition:0.3s;
 }
-
 .project-card:hover{
     transform:translateY(-8px);
 }
@@ -426,6 +411,9 @@ font-weight: 500;
     color: rgb(175, 82, 218);
     font-size: 20px;
     font-weight: 600;
+}
+.skill-head{
+    color:#a436d4;
 }
 .timeline-content p{
     color: #645b5b;
