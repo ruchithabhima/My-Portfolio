@@ -179,7 +179,7 @@ font-weight: 500;
 }
 .btnbg{
   
-    background-color: #a855f7;
+    background-color: #9b5cff;
     color: #ffffff;
 
     max-width: 200px;
@@ -412,9 +412,7 @@ font-weight: 500;
     font-size: 20px;
     font-weight: 600;
 }
-.skill-head{
-    color:#a436d4;
-}
+
 .timeline-content p{
     color: #645b5b;
     font-weight: 500;
